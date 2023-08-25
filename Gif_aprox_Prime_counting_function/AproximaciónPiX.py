@@ -17,8 +17,7 @@ from mpmath import li,re
 from scipy.special import expi
 
 import os
-
-os.chdir(r"C:\Users\Rafa\Desktop\Python_projects\Riemann_zeros\ImagenesPresentación")
+os.chdir(r"Gif_aprox_Prime_counting_function/")
 
 def Integrando(x):
     return 1/x/(x**2-1)/log(x)
