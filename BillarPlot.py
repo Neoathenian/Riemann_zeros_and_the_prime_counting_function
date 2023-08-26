@@ -124,6 +124,7 @@ psi=np.arcsin(np.random.uniform(-1,1,1))#Esto es para seguir la distribución da
 
 beta=beta[0]
 psi=psi[0]
+
 Gif(beta,psi,epsilon)
 
 #Plot_Recorrido(Recorrido(beta,psi,epsilon))

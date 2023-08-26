@@ -1,3 +1,6 @@
+"""I believe this is used to generate PBillar3.png, but it takes very long, I´ve generated similar with lower values for n and epsilon
+    This code is very old, so maybe if I left a few days running it would generate the image, but I don´t think it´s worth it
+"""
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
@@ -52,16 +55,19 @@ n=10**7
 
 
 beta=np.random.uniform(-pi,pi,n)
+print("len(beta)=",len(beta))
 #psi=np.arcsin(np.random.uniform(-1,1,n))#Esto es para seguir la distribución dada por el paper(que no es la uniforme sino cos(psi)/2dpsi)
 psi=np.random.uniform(-pi/2,pi/2,n)
+print("len(psi)=",len(psi))
 
 N=np.array([Tiempo_Escape(beta[i],psi[i],epsilon) for i in range(len(beta))])
-
+print("len(N)=",len(N)) 
 
 def P1(t,N):
     return np.array([np.sum(N>s)/len(N) for s in t])
 
 t=np.linspace(n/50,10*n,10)
+print("len(t)=",len(t))
 
 #plt.plot(t,P1(t,N)*100)
 print(2/epsilon)
