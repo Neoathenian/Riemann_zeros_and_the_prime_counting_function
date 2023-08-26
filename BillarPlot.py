@@ -1,7 +1,9 @@
+"""This script alone creates the images and the Gif for the pool table (billiard table)"""
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
-import imageio
+#import imageio
+import imageio.v2 as imageio
 import os
 
 os.makedirs("ImgsBilliardsGif",exist_ok=True)
