@@ -1,5 +1,5 @@
 """I believe this is used to generate PBillar3.png, but it takes very long, I´ve generated similar with lower values for n and epsilon
-    This code is very old, so maybe if I left a few days running it would generate the image, but I don´t think it´s worth it
+    This code is very old, so maybe if I left a few days running it would generate the image, but I don´t think it´s worth it 
 """
 import numpy as np
 from numpy import pi
