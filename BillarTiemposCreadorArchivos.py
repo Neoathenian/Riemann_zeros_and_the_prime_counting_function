@@ -1,3 +1,4 @@
+"""This creates files to be used in BillarTiemposLectorArchivos.py BE CAREFUL AS IT IS USING A WHILE TRUE as the more data the better lmao"""
 import numpy as np
 from numpy import pi
 import matplotlib.pyplot as plt
