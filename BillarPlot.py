@@ -126,22 +126,3 @@ beta=beta[0]
 psi=psi[0]
 
 Gif(beta,psi,epsilon)
-
-#Plot_Recorrido(Recorrido(beta,psi,epsilon))
-#Plot_Circunferencia(epsilon)
-#plt.plot(cc(beta)[0],cc(beta)[1],".",markersize=10,color="black")
-#
-#
-#now=cc(beta)
-#next=cc(T(beta,psi))
-#
-##plt.plot(next[0],next[1],".",markersize=10,color="black")
-#
-#x=np.linspace(now[0],next[0],5)
-#y=now[1]+(next[1]-now[1])/(next[0]-now[0])*(x-now[0])
-#plt.plot(x,y,".",markersize=10,color="black")
-#plt.savefig("ImgsBilliardsGif/GRAFICA.png")
-#plt.show()
-#
-#
-#
